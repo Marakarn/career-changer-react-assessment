@@ -1,0 +1,116 @@
+#root {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*navbar*/
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*button*/
+.sector_box {
+    display: flex;
+    justify-content: center;
+}
+
+.sector_button {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 40px 10px 40px;
+    background-color: rgb(0, 140, 93);
+    border: none;
+    border-radius: 4px;
+}
+
+.sector_button:hover {
+    background-color: rgba(0, 140, 93,0.7);
+    cursor: pointer;
+}
+
+/*Owner Page*/
+.owner_pic {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    height: auto;
+}
+
+.coffee_pic {
+    width: 80px;
+    margin: 40px;
+}
+
+.bio_text {
+    width: 60%;
+    margin: auto;
+}
+
+.welcome_picture {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: auto;
+}
+
+.table_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    width: 65%;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+tr, td {
+    width: 60%;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.input_create_form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.button_create {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(28, 153, 192);
+    border: none;
+    border-radius: 4px;
+}
+
+.button_create:hover {
+    background-color: rgba(28, 153, 192,0.7);
+    cursor: pointer;
+}
