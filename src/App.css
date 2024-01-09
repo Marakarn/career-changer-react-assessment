@@ -114,3 +114,15 @@ tr, td {
     background-color: rgba(28, 153, 192,0.7);
     cursor: pointer;
 }
+
+.delete_button:hover {
+    background-color: rgba(218, 57, 76,0.7);
+    cursor: pointer;
+}
+
+.delete_button {
+    background-color: rgb(218, 57, 76);
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+}

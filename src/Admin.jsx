@@ -32,7 +32,7 @@ const Admin = ({employees, submitCreate, submitRemove }) => {
                         <td>{employee.name}</td>
                         <td>{employee.lastname}</td>
                         <td>{employee.position}</td>
-                        <td><button onClick={() => submitRemove(employee.id)}>Remove</button></td>
+                        <td><button className='delete_button' onClick={() => submitRemove(employee.id)}>Remove</button></td>
                     </tr>
                     ))}
                 </tbody>
